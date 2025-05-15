@@ -12,11 +12,12 @@
     - `project_name`: 项目名称，例如人才自动审核 (autoaudit)。
     - `code_function`: 代码功能类型，例如 `api`、`web`、`crawler`。
 
-    示例：人才集团自动审核后台 API 的代码仓库名称应为 `talentgroup-autoaudit-api`。
+    示例：人才集团自动审核后台 API 的代码仓库名称为 `talentgroup-autoaudit-api`  
+    人才集团自动审核网页爬虫的代码仓库名称为 `talentgroup-autoaudit-crawler`
 
 ### 分支管理
 - 主分支应命名为 **main**。
-- 新功能和问题修复应从**main**分支拉取新分支开发。
+- 新功能和问题修复应从 **main** 分支拉取新分支开发。
 - 新功能分支以 **feat/** 为前缀，例如 `feat/user-management`。
 - Bug修复分支以 **fix/** 为前缀，例如 `fix/login-error`。
 - 完成功能分支或修复分支的开发后，请通过 **Pull Request** 的方式将其合并到 **main** 分支。
